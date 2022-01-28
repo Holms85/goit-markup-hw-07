@@ -1,10 +1,10 @@
-.about {
+.activities {
   display: flex;
   padding-top: 0;
   padding-bottom: 94px;
 }
 
-.about-title {
+.activities__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -14,11 +14,11 @@
   text-align: center;
 }
 
-.about-list {
+.activities-list {
   display: flex;
 }
 
-.about-photos {
+.activities__photos {
   position: relative;
   width: 370px;
   &:not(:last-child) {
@@ -26,7 +26,7 @@
   }
 }
 
-.about-thumb {
+.activities__thumb {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -37,7 +37,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.about-img-title {
+.activities__card-title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);

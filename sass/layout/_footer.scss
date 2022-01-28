@@ -4,16 +4,16 @@
   padding-bottom: 60px;
 }
 
-.footer-container {
+.footer-page__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-thumb {
+.footer-page__contacts {
   margin-right: 70px;
 }
 
-.footer-logo-one {
+.footer-page__logo {
   width: 145px;
   height: 31px;
   font-family: "Raleway";
@@ -23,16 +23,16 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.logo-two {
+.footer-page__logo--wite {
   color: var(--footer-logo);
 }
-.footer-address {
+.foter-page__address-card {
   width: 231px;
   height: 81px;
   font-style: inherit;
   margin-top: 20px;
 }
-.address-text {
+.address-card__text {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -40,16 +40,16 @@
   margin-bottom: 0;
 }
 
-.address-list {
+.address-card__address-list {
   margin-top: 9px;
 }
 
-.address-mail {
+.address-list__email {
   margin-bottom: 9px;
 }
 
-.address-mail,
-.address-tel {
+.address-list__email,
+.address-list__tel {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
