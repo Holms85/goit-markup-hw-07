@@ -7,20 +7,20 @@ header .container {
   align-items: center;
 }
 
-.header-list {
+.site-nav-list {
   display: flex;
 }
 
-.header-contakt {
+.contaсts {
   display: flex;
 }
 
-.header-logo {
+.logo-header {
   margin-right: 93px;
   padding: 24px 0 25px 0;
 }
 
-.header-logo {
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -29,15 +29,15 @@ header .container {
   color: var(--accent-color);
 }
 
-.logo {
+.logo-header__text {
   color: var(--hedear-logo);
 }
 
-.header-item:not(:last-child) {
+.site-nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.site-nav-list__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -68,28 +68,28 @@ header .container {
   }
 }
 
-.header-contakt {
+.contaсts {
   margin-left: auto;
 }
 
-.header-mail,
-.header-tel {
+.contaсts__email,
+.contacts__tel {
   display: flex;
   align-items: center;
 }
 
-.header-mail-icon {
+.contaсts__email-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-tell-icon {
+.contaсts__tel-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-mail,
-.header-tel {
+.contaсts__email,
+.contacts__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -102,6 +102,6 @@ header .container {
   }
 }
 
-.header-item-contakt:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }

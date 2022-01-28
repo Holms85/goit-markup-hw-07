@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -92,24 +93,24 @@ header .container {
           align-items: center;
 }
 
-.header-list {
+.site-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header-contakt {
+.contaсts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header-logo {
+.logo-header {
   margin-right: 93px;
   padding: 24px 0 25px 0;
 }
 
-.header-logo {
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -118,15 +119,15 @@ header .container {
   color: var(--accent-color);
 }
 
-.logo {
+.logo-header__text {
   color: var(--hedear-logo);
 }
 
-.header-item:not(:last-child) {
+.site-nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.site-nav-list__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -139,7 +140,7 @@ header .container {
   transition: color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.header-link:hover, .header-link:focus {
+.site-nav-list__link:hover, .site-nav-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -159,12 +160,12 @@ header .container {
   background-color: var(--accent-color);
 }
 
-.header-contakt {
+.contaсts {
   margin-left: auto;
 }
 
-.header-mail,
-.header-tel {
+.contaсts__email,
+.contacts__tel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,18 +174,18 @@ header .container {
           align-items: center;
 }
 
-.header-mail-icon {
+.contaсts__email-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-tell-icon {
+.contaсts__tel-icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-mail,
-.header-tel {
+.contaсts__email,
+.contacts__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -194,13 +195,13 @@ header .container {
   transition: color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.header-mail:hover, .header-mail:focus,
-.header-tel:hover,
-.header-tel:focus {
+.contaсts__email:hover, .contaсts__email:focus,
+.contacts__tel:hover,
+.contacts__tel:focus {
   color: var(--accent-color);
 }
 
-.header-item-contakt:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -216,7 +217,7 @@ header .container {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -229,7 +230,7 @@ header .container {
   max-width: 696px;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -247,7 +248,7 @@ header .container {
   transition: bacground-color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--hero-btn-active);
 }
 
