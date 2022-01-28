@@ -35,7 +35,7 @@
     opacity var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -68,6 +68,6 @@
   }
 }
 
-.modal-btn-icon {
+.modal-btn__icon {
   fill: currentColor;
 }

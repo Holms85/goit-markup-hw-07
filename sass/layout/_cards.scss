@@ -3,7 +3,7 @@
   padding-bottom: 94px;
 }
 
-.photo-list-btn {
+.set-btn {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
@@ -13,7 +13,7 @@
   }
 }
 
-.photo-btn {
+.set-btn__btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -37,14 +37,14 @@
   }
 }
 
-.photo-list {
+.photo__card-set {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
 }
 
-.photo-link {
+.card-set__link {
   position: relative;
   display: block;
   transition: box-shadow var(--time-hov-fok--) var(--cubic-bezier--);
@@ -55,19 +55,19 @@
   }
 }
 
-.photo-item {
+.card-set__item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.img-overlay-thumb {
+.card-set__img-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.photo-overlay {
+.card-set__photo-overlay {
   position: absolute;
   content: "";
   top: 0;
@@ -82,14 +82,14 @@
   transition: opacity var(--time-hov-fok--) var(--cubic-bezier--),
     transform var(--time-hov-fok--) var(--cubic-bezier--);
   transform: translateY(100%);
-  .photo-link:hover &,
-  .photo-link:focus & {
+  .card-set__link:hover &,
+  .card-set__link:focus & {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
-.photo-thumb-portfolio {
+.card-set__thumb-portfolio {
   position: absolute;
   width: 322px;
   height: 294px;
@@ -97,13 +97,13 @@
   left: 24px;
   opacity: 0;
   transition: opacity var(--time-hov-fok--) var(--cubic-bezier--);
-  .photo-link:hover &,
-  .photo-link:focus & {
+  .card-set__link:hover &,
+  .card-set__link:focus & {
     opacity: 1;
   }
 }
 
-.photo-portfolio-text {
+.card-set__portfolio-text {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
@@ -111,14 +111,14 @@
   color: #ffffff;
 }
 
-.photo-thumb {
+.card-set__photo-thumb {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.photo-title {
+.card-set__photo-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -127,7 +127,7 @@
   margin-bottom: 4px;
 }
 
-.photo-text {
+.card-set__photo-text {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;

@@ -574,11 +574,11 @@ header .container {
   color: var(--accent-color);
 }
 
-.footer-social-div {
+.footer-page__social {
   margin-right: 93px;
 }
 
-.footer-title {
+.footer-page-social__title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -588,7 +588,7 @@ header .container {
   margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,11 +597,11 @@ header .container {
           justify-content: center;
 }
 
-.footer-social-item:not(:last-child) {
+.footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-social-link {
+.footer-social__link {
   width: 44px;
   height: 44px;
   display: -webkit-box;
@@ -619,15 +619,15 @@ header .container {
   transition: background-color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.footer-social-link:hover, .footer-social-link:focus {
+.footer-social__link:hover, .footer-social__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-social-icon {
+.footer-social__icon {
   fill: #ffffff;
 }
 
-.form-title {
+.foter-form__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -637,7 +637,7 @@ header .container {
   margin-bottom: 20px;
 }
 
-.send-email {
+.email-form__send {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -646,7 +646,7 @@ header .container {
           justify-content: space-between;
 }
 
-.email-form-text {
+.email-form__text {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -659,7 +659,7 @@ header .container {
   padding: 15px 16px;
 }
 
-.email-form-text::-webkit-input-placeholder, .email-form-text {
+.email-form__text::-webkit-input-placeholder, .email-form__text {
   font-weight: normal;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -667,7 +667,7 @@ header .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-form-text:-ms-input-placeholder, .email-form-text {
+.email-form__text:-ms-input-placeholder, .email-form__text {
   font-weight: normal;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -675,7 +675,7 @@ header .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-form-text::-ms-input-placeholder, .email-form-text {
+.email-form__text::-ms-input-placeholder, .email-form__text {
   font-weight: normal;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -683,7 +683,7 @@ header .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-form-text::placeholder, .email-form-text {
+.email-form__text::placeholder, .email-form__text {
   font-weight: normal;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -691,7 +691,7 @@ header .container {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.email-form-btn {
+.email-form__btn {
   width: 200px;
   height: 50px;
   font-weight: 700;
@@ -719,11 +719,11 @@ header .container {
   transition: background-color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.email-form-btn:hover, .email-form-btn:focus {
+.email-form__btn:hover, .email-form__btn:focus {
   background-color: var(--hero-btn-active);
 }
 
-.send-icon {
+.email-form__send-icon {
   margin-left: 10px;
 }
 
@@ -732,7 +732,7 @@ header .container {
   padding-bottom: 94px;
 }
 
-.photo-list-btn {
+.set-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -745,11 +745,11 @@ header .container {
           justify-content: center;
 }
 
-.photo-list-btn:not(:last-child) {
+.set-btn:not(:last-child) {
   margin-right: 8px;
 }
 
-.photo-btn {
+.set-btn__btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -767,14 +767,14 @@ header .container {
   transition: background-color var(--time-hov-fok--) var(--cubic-bezier--), color var(--time-hov-fok--) var(--cubic-bezier--), box-shadow var(--time-hov-fok--) var(--cubic-bezier--), -webkit-box-shadow var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.photo-btn:hover, .photo-btn:focus {
+.set-btn__btn:hover, .set-btn__btn:focus {
   background-color: var(--accent-color);
   color: var(--main-title-color);
   -webkit-box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014, 0px 3px 1px 0px #0000001a;
           box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014, 0px 3px 1px 0px #0000001a;
 }
 
-.photo-list {
+.photo__card-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -784,7 +784,7 @@ header .container {
   margin-bottom: -30px;
 }
 
-.photo-link {
+.card-set__link {
   position: relative;
   display: block;
   -webkit-transition: -webkit-box-shadow var(--time-hov-fok--) var(--cubic-bezier--);
@@ -793,12 +793,12 @@ header .container {
   transition: box-shadow var(--time-hov-fok--) var(--cubic-bezier--), -webkit-box-shadow var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.photo-link:hover, .photo-link:focus {
+.card-set__link:hover, .card-set__link:focus {
   -webkit-box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
           box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
 }
 
-.photo-item {
+.card-set__item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -806,12 +806,12 @@ header .container {
       flex-basis: calc(100% / 3 - 30px);
 }
 
-.img-overlay-thumb {
+.card-set__img-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.photo-overlay {
+.card-set__photo-overlay {
   position: absolute;
   content: "";
   top: 0;
@@ -832,14 +832,14 @@ header .container {
           transform: translateY(100%);
 }
 
-.photo-link:hover .photo-overlay,
-.photo-link:focus .photo-overlay {
+.card-set__link:hover .card-set__photo-overlay,
+.card-set__link:focus .card-set__photo-overlay {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.photo-thumb-portfolio {
+.card-set__thumb-portfolio {
   position: absolute;
   width: 322px;
   height: 294px;
@@ -850,12 +850,12 @@ header .container {
   transition: opacity var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.photo-link:hover .photo-thumb-portfolio,
-.photo-link:focus .photo-thumb-portfolio {
+.card-set__link:hover .card-set__thumb-portfolio,
+.card-set__link:focus .card-set__thumb-portfolio {
   opacity: 1;
 }
 
-.photo-portfolio-text {
+.card-set__portfolio-text {
   font-weight: 400;
   font-size: 18px;
   line-height: calc(28 / 18);
@@ -863,14 +863,14 @@ header .container {
   color: #ffffff;
 }
 
-.photo-thumb {
+.card-set__photo-thumb {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.photo-title {
+.card-set__photo-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -879,7 +879,7 @@ header .container {
   margin-bottom: 4px;
 }
 
-.photo-text {
+.card-set__photo-text {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -927,7 +927,7 @@ header .container {
   transition: transform var(--time-hov-fok--) var(--cubic-bezier--), visibility var(--time-hov-fok--) var(--cubic-bezier--), opacity var(--time-hov-fok--) var(--cubic-bezier--), -webkit-transform var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.modal-title {
+.modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -967,7 +967,7 @@ header .container {
   color: var(--accent-color);
 }
 
-.modal-btn-icon {
+.modal-btn__icon {
   fill: currentColor;
 }
 
@@ -976,7 +976,7 @@ header .container {
   padding-top: 0;
 }
 
-.form-field {
+.form__field {
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -987,7 +987,7 @@ header .container {
           flex-direction: column;
 }
 
-.form-text {
+.form__text {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -996,7 +996,7 @@ header .container {
   margin-bottom: 4px;
 }
 
-.form-field-input {
+.form__input {
   width: 100%;
   height: 40px;
   padding: 11px 12px;
@@ -1009,15 +1009,15 @@ header .container {
   transition: border-color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.form-field-input:focus {
+.form__input:focus {
   border-color: var(--accent-color);
 }
 
-.form-field-input .form-input-div {
+.form__input-div {
   position: relative;
 }
 
-.form-field-input .form-input-icon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -1027,11 +1027,11 @@ header .container {
   transition: fill var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.form-field-input .form-field-input:focus + .form-input-icon {
+.form__input:focus + .form__icon {
   fill: var(--accent-color);
 }
 
-.form-field textarea {
+.form__comment {
   height: 120px;
   resize: none;
   padding: 12px 16px;
@@ -1042,11 +1042,11 @@ header .container {
   transition: border-color var(--time-hov-fok--) var(--cubic-bezier--);
 }
 
-.form-field textarea:focus {
+.form__comment:focus {
   border-color: var(--accent-color);
 }
 
-.form-field textarea::-webkit-input-placeholder {
+.form__comment::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -1054,7 +1054,7 @@ header .container {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea:-ms-input-placeholder {
+.form__comment:-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -1062,7 +1062,7 @@ header .container {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea::-ms-input-placeholder {
+.form__comment::-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -1070,7 +1070,7 @@ header .container {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field textarea::placeholder {
+.form__comment::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -1078,7 +1078,7 @@ header .container {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-policy {
+.form__policy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1089,7 +1089,7 @@ header .container {
   margin-bottom: 30px;
 }
 
-.form-policy-text {
+.form__policy-text {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -1103,7 +1103,7 @@ header .container {
           align-items: center;
 }
 
-.form-policy-text::before {
+.form__policy-text::before {
   content: "";
   width: 16px;
   height: 15px;
@@ -1112,13 +1112,13 @@ header .container {
   margin-right: 8px;
 }
 
-.policy-check {
+.form__policy-check {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-.policy-check:checked + .form-policy-text::before {
+.form__policy-check:checked + .form__policy-text::before {
   border: none;
   background-image: url(../images/icon-check.svg);
   background-repeat: no-repeat;
