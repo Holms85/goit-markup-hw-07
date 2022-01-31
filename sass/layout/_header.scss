@@ -22,6 +22,7 @@ header .container {
 
 .logo-header {
   font-family: "Raleway", sans-serif;
+  @include font(700, 26px, 31px);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -39,10 +40,11 @@ header .container {
 
 .site-nav-list__link {
   position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+  @include font($ls: 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: calc(16 / 14);
+  // letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -90,10 +92,11 @@ header .container {
 
 .contaсts__email,
 .contacts__tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+  @include font($ls: 0.02em);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: calc(16 / 14);
+  // letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   transition: color var(--time-hov-fok--) var(--cubic-bezier--);
   &:hover,

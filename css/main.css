@@ -114,6 +114,10 @@ header .container {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
+  line-height: 1.19231;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color);
@@ -131,7 +135,7 @@ header .container {
   position: relative;
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14286;
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -188,7 +192,7 @@ header .container {
 .contacts__tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14286;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   -webkit-transition: color var(--time-hov-fok--) var(--cubic-bezier--);
@@ -220,7 +224,7 @@ header .container {
 .hero__title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.36364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -234,7 +238,7 @@ header .container {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--main-title-color);
@@ -286,7 +290,7 @@ header .container {
 .about-list__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14286;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -295,7 +299,7 @@ header .container {
 
 .about-list__text {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -311,7 +315,7 @@ header .container {
 .activities__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-bottom: 50px;
@@ -347,9 +351,9 @@ header .container {
 .activities__card-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
-  text-align: center;
+  line-height: 1.14286;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--main-title-color);
 }
@@ -371,7 +375,7 @@ header .container {
 .team__title {
   font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-bottom: 50px;
@@ -381,7 +385,7 @@ header .container {
 .team-list__name {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   margin-bottom: 10px;
@@ -389,7 +393,7 @@ header .container {
 
 .team-list__profession {
   font-size: 16px;
-  line-height: calc(19 / 16);
+  line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   margin-bottom: 16px;
@@ -446,10 +450,9 @@ header .container {
 }
 
 .clients__title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
@@ -630,7 +633,7 @@ header .container {
 .foter-form__title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14286;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -660,33 +663,33 @@ header .container {
 }
 
 .email-form__text::-webkit-input-placeholder, .email-form__text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: calc(20 / 16);
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .email-form__text:-ms-input-placeholder, .email-form__text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: calc(20 / 16);
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .email-form__text::-ms-input-placeholder, .email-form__text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: calc(20 / 16);
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .email-form__text::placeholder, .email-form__text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: calc(20 / 16);
+  line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -753,7 +756,7 @@ header .container {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26 / 16);
+  line-height: 1.625;
   letter-spacing: 0.03em;
   background-color: var(--portfolio-btn-bg-color);
   color: var(--primary-text-color);
@@ -858,7 +861,7 @@ header .container {
 .card-set__portfolio-text {
   font-weight: 400;
   font-size: 18px;
-  line-height: calc(28 / 18);
+  line-height: 1.55556;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -873,7 +876,7 @@ header .container {
 .card-set__photo-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: calc(36 / 18);
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   margin-bottom: 4px;
@@ -881,7 +884,7 @@ header .container {
 
 .card-set__photo-text {
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -930,9 +933,9 @@ header .container {
 .modal__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: calc(23 / 20);
-  text-align: center;
+  line-height: 1.15;
   letter-spacing: 0.03em;
+  text-align: center;
   color: #212121;
   margin-left: auto;
   margin-right: auto;
@@ -990,7 +993,7 @@ header .container {
 .form__text {
   font-weight: 400;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.16667;
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
@@ -1049,7 +1052,7 @@ header .container {
 .form__comment::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.16667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -1057,7 +1060,7 @@ header .container {
 .form__comment:-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.16667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -1065,7 +1068,7 @@ header .container {
 .form__comment::-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.16667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -1073,7 +1076,7 @@ header .container {
 .form__comment::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: calc(14 / 12);
+  line-height: 1.16667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -1092,7 +1095,7 @@ header .container {
 .form__policy-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.71429;
   letter-spacing: 0.03em;
   color: #757575;
   display: -webkit-box;
@@ -1129,7 +1132,7 @@ header .container {
 .form-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: calc(30 / 16);
+  line-height: 1.875;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--main-title-color);

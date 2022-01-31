@@ -28,17 +28,19 @@
 }
 
 .about-list__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
+  @include font($fw: 700);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: calc(16 / 14);
+  // letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
 .about-list__text {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
+  @include font(null, 14px, 24px, 0.03em);
+  // font-size: 14px;
+  // line-height: calc(24 / 14);
+  // letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }

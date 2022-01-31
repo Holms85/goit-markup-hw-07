@@ -15,10 +15,11 @@
 
 .set-btn__btn {
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(26 / 16);
-  letter-spacing: 0.03em;
+  @include font($fs: 16px, $lh: 26px);
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: calc(26 / 16);
+  // letter-spacing: 0.03em;
   background-color: var(--portfolio-btn-bg-color);
   color: var(--primary-text-color);
   cursor: pointer;
@@ -104,10 +105,11 @@
 }
 
 .card-set__portfolio-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: calc(28 / 18);
-  letter-spacing: 0.03em;
+  @include font(400, 18px, 28px);
+  // font-weight: 400;
+  // font-size: 18px;
+  // line-height: calc(28 / 18);
+  // letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -119,17 +121,19 @@
 }
 
 .card-set__photo-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: calc(36 / 18);
-  letter-spacing: 0.06em;
+  @include font(700, 18px, 36px, 0.06em);
+  // font-weight: 700;
+  // font-size: 18px;
+  // line-height: calc(36 / 18);
+  // letter-spacing: 0.06em;
   color: var(--primary-text-color);
   margin-bottom: 4px;
 }
 
 .card-set__photo-text {
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  @include font(null, 16px, 30px);
+   // font-size: 16px;
+    // line-height: calc(30 / 16);
+    // letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
